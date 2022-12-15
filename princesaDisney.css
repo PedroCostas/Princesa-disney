@@ -1,0 +1,19 @@
+.container {
+    display: inline;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container img {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, -25px 5px 31px -6px rgba(0, 0, 0, 0);
+}
+
+h2 {
+    background: #9BCF91;
+    background: linear-gradient(to right, #9BCF91 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
